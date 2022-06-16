@@ -1,6 +1,6 @@
 /*
     Autosplitter for What Lies in the Multiverse
-    v1.0.1
+    v1.0.2
     Developed against game version 1.0.23
 */
 
@@ -26,7 +26,20 @@ startup
     settings.Add("chapter7", true, "Chapter 7", "Splits");
     settings.Add("chapter8", true, "Chapter 8", "Splits");
     settings.Add("chapter9", true, "Final Chapter", "Splits");
-    settings.Add("chapter10", true, "Credits", "Splits");}
+    settings.Add("chapter10", true, "Credits", "Splits");
+
+    if (timer.CurrentTimingMethod == TimingMethod.RealTime)
+    {
+        var messageBox = MessageBox.Show(
+            "The game is run in IGT (Time without Loads - Game Time).\n"+
+            "LiveSplit is currently set to show Real Time (RTA).\n"+
+            "Would you like to set the timing method to Game Time?",
+            "LiveSplit | What Lies in the Multiverse",
+            MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+        
+        if (messageBox == DialogResult.Yes) timer.CurrentTimingMethod = TimingMethod.GameTime;
+    }
+}
 
 init
 {
