@@ -1,25 +1,25 @@
 /*
     Autosplitter for What Lies in the Multiverse
-    v1.1.1
-    Developed against game version 1.0.47
+    v1.2.0
+    Developed against game version 1.1.1
     Now with timer data!
 */
 
 
 state("What Lies in the Multiverse")
 {
-    int room_id: "What Lies in the Multiverse.exe", 0x2D2C2E0;
-    double totalGameTime: "What Lies in the Multiverse.exe", 0x2C7AE1C, 0x9A0;
-    double prologueTime: "What Lies in the Multiverse.exe", 0x2F634EC, 0x68, 0xC8, 0x0, 0xD00;
-    double chapter1Time: "What Lies in the Multiverse.exe", 0x2F634EC, 0x68, 0xC8, 0x0, 0xD10;
-    double chapter2Time: "What Lies in the Multiverse.exe", 0x2F634EC, 0x68, 0xC8, 0x0, 0xD20;
-    double chapter3Time: "What Lies in the Multiverse.exe", 0x2F634EC, 0x68, 0xC8, 0x0, 0xD30;
-    double chapter4Time: "What Lies in the Multiverse.exe", 0x2F634EC, 0x68, 0xC8, 0x0, 0xD40;
-    double chapter5Time: "What Lies in the Multiverse.exe", 0x2F634EC, 0x68, 0xC8, 0x0, 0xD50;
-    double chapter6Time: "What Lies in the Multiverse.exe", 0x2F634EC, 0x68, 0xC8, 0x0, 0xD60;
-    double chapter7Time: "What Lies in the Multiverse.exe", 0x2F634EC, 0x68, 0xC8, 0x0, 0xD70;
-    double chapter8Time: "What Lies in the Multiverse.exe", 0x2F634EC, 0x68, 0xC8, 0x0, 0xD80;
-    double chapter9Time: "What Lies in the Multiverse.exe", 0x2F634EC, 0x68, 0xC8, 0x0, 0xD90;
+    int room_id: "What Lies in the Multiverse.exe", 0x2D3B650;
+    double totalGameTime: "What Lies in the Multiverse.exe", 0x2F7285C, 0x68, 0x130, 0x490;
+    double prologueTime: "What Lies in the Multiverse.exe", 0x2F7285C, 0x68, 0xD4, 0x0, 0xD00;
+    double chapter1Time: "What Lies in the Multiverse.exe", 0x2F7285C, 0x68, 0xD4, 0x0, 0xD10;
+    double chapter2Time: "What Lies in the Multiverse.exe", 0x2F7285C, 0x68, 0xD4, 0x0, 0xD20;
+    double chapter3Time: "What Lies in the Multiverse.exe", 0x2F7285C, 0x68, 0xD4, 0x0, 0xD30;
+    double chapter4Time: "What Lies in the Multiverse.exe", 0x2F7285C, 0x68, 0xD4, 0x0, 0xD40;
+    double chapter5Time: "What Lies in the Multiverse.exe", 0x2F7285C, 0x68, 0xD4, 0x0, 0xD50;
+    double chapter6Time: "What Lies in the Multiverse.exe", 0x2F7285C, 0x68, 0xD4, 0x0, 0xD60;
+    double chapter7Time: "What Lies in the Multiverse.exe", 0x2F7285C, 0x68, 0xD4, 0x0, 0xD70;
+    double chapter8Time: "What Lies in the Multiverse.exe", 0x2F7285C, 0x68, 0xD4, 0x0, 0xD80;
+    double chapter9Time: "What Lies in the Multiverse.exe", 0x2F7285C, 0x68, 0xD4, 0x0, 0xD90;
 }
 
 startup
