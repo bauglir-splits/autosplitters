@@ -67,6 +67,8 @@ update
         if (current.chapter != i && current.room_id == vars.chapterFirstRooms[i]) current.chapter = i;
     }
 
+
+    // Variables populated for optional use with the ASLVarViewer component
     vars.TotalGameTime = TimeSpan.FromSeconds(current.totalGameTime / 60).ToString(@"hh\:mm\:ss\.ff");
     vars.PrologueTime = TimeSpan.FromSeconds(current.prologueTime / 60).ToString(@"hh\:mm\:ss\.ff");
     vars.Chapter1Time = TimeSpan.FromSeconds(current.chapter1Time / 60).ToString(@"hh\:mm\:ss\.ff");
