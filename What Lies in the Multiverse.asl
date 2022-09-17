@@ -1,6 +1,6 @@
 /*
     Autosplitter for What Lies in the Multiverse
-    v1.3.0
+    v1.3.1
     Supports versions 1.0.23 - 1.1.2
 */
 
@@ -41,7 +41,7 @@ state("What Lies in the Multiverse", "1.1.1")
 state("What Lies in the Multiverse", "1.0.47")
 {
     int room_id: "What Lies in the Multiverse.exe", 0x2D2C2E0;
-    double totalGameTime: "What Lies in the Multiverse.exe", 0x2C7AE1C, 0x9A0;
+    double totalGameTime: "What Lies in the Multiverse.exe", 0x2F634EC, 0x68, 0x130, 0x490;
     double prologueTime: "What Lies in the Multiverse.exe", 0x2F634EC, 0x68, 0xC8, 0x0, 0xD00;
     double chapter1Time: "What Lies in the Multiverse.exe", 0x2F634EC, 0x68, 0xC8, 0x0, 0xD10;
     double chapter2Time: "What Lies in the Multiverse.exe", 0x2F634EC, 0x68, 0xC8, 0x0, 0xD20;
@@ -128,7 +128,7 @@ init
         case "1.1.2":
         case "1.1.1":
         case "1.0.47":
-            vars.chapterFirstRooms = new int[11] { 239, 247, 77, 57, 56, 204, 79, 74, 46, 19, 91 };
+            vars.chapterFirstRooms = new int[11] { 239, 247, 77, 57, 56, 204, 79, 206, 46, 19, 91 };
             break;
 
         case "1.0.23":
